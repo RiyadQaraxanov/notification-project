@@ -1,0 +1,85 @@
+.container{
+    width: 730px;
+    background-color: rgba(0, 0, 0, 0.815);
+    height: 839px;
+    border-radius: 15px;
+    padding: 31px 33px;
+}
+.header{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 31px;
+}
+.mark-as-read{
+    color: antiquewhite;
+    cursor: pointer;
+}
+.notification-div{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.notification-text{
+    font-size: 30px;
+    font-weight: 700;
+    color: antiquewhite;
+}
+.notification-number{
+    font-size: 20px;
+    width: 30px;
+    border-radius: 25%;
+    font-weight: 700;
+    background-color: antiquewhite;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.avatar{
+    width: 45px;
+}
+.boxes{
+    display: flex;
+    padding: 18px 32px 17px 20px;
+    height: 45px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.readed{
+    background-color: antiquewhite;
+}
+.name-message{
+    display: flex;
+    gap: 5px;
+    margin-left: 20px;
+    font-size: 20px;
+    align-items: center;
+}
+.name{
+    font-weight: 700;
+
+}
+.circle{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgb(232, 13, 13);
+    align-items: center;
+    display: flex;
+    margin-top: 8px;
+}
+.time{
+    margin-left: 20px;
+}
+.name-readed{
+    color: antiquewhite;
+}
+.message-readed{
+    color: antiquewhite;
+}
+.time-readed{
+    color: antiquewhite;
+}
